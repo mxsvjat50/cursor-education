@@ -1,0 +1,45 @@
+body {
+ background: rgb(122, 179, 187);  
+}
+td, th{
+    background:rgb(72, 159, 173 ) ;
+    padding: 12px;
+}
+div {
+width: 600px;
+margin: 0px auto;
+}
+h1 {
+    text-align: center;
+}
+form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+input {
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
+.gender {
+    font-size: 150%;
+}
+.m {
+    color: blue;
+}
+.w {
+    color:red;
+}
+.city {
+    font-size: 150%;
+}
+select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+.language {
+    font-size: 150%;
+}
+button {
+    margin-top: 10px;   
+}
