@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(32, 32, 32);
+    font-family: 'Avantgarde', sans-serif;
+}
+table {
+    border: 1px rgb(165, 165, 165) solid;
+    border-radius: 5px;
+    height: 140px;
+    width: 680px;
+    margin-left: 35px;
+    margin-top: 60px;
+    font-size: 14px;
+    table-layout: fixed;
+    background-color: rgb(60, 60, 60);
+}
+.table_words {
+    color:rgb(223, 223, 223);
+}
+td, th {
+    text-align: left;
+    padding: 10px;
+}
+.dots {
+    text-align: right;
+}
+td {
+    border-top: 1px rgb(165, 165, 165) solid;
+    color: rgb(136, 136, 136);
+}
+.down_arrow {
+    border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid white;
+    position: relative;
+    left: 10px;
+    top: 11px;
+}
+.dots_light {
+    color: rgb(223, 223, 223);
+    text-align: right;
+}
+.circle {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(134, 134, 134);
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    left: 85%;
+}
+.circle_light {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 238);
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    left: 85%;
+}
+.search_icon {
+    width: 16px;
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    left: 5px;
+
+}
+.search_table {
+    width: 100%;
+    background-color: gray;
+    border-radius: 5px;
+}
+.input_search {
+    background-color: gray;
+    border: none;
+    outline: none;
+    position: relative;
+    bottom: 1px; 
+    display: inline-block;
+    color: rgb(195, 195, 195);
+}
+.search_box {
+    padding: 5px;
+}
+input[type="text"]::-webkit-input-placeholder{
+    color: rgb(195, 195, 195);
+}
+.archive_icon {
+    width: 15px;
+    margin-right: 4px;
+}
