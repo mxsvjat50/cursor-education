@@ -23,10 +23,10 @@ input {
 .gender {
     font-size: 150%;
 }
-.m {
+.men {
     color: blue;
 }
-.w {
+.women {
     color:red;
 }
 .city {
