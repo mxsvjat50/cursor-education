@@ -81,6 +81,8 @@ td {
     bottom: 1px; 
     display: inline-block;
     color: rgb(195, 195, 195);
+    margin-top: 6px;
+    margin-bottom: 4px;
 }
 .search_box {
     padding: 5px;
