@@ -12,6 +12,7 @@ table {
     font-size: 14px;
     table-layout: fixed;
     background-color: rgb(60, 60, 60);
+    border-spacing: 0px;
 }
 .table_words {
     color:rgb(223, 223, 223);
