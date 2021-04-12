@@ -1,0 +1,325 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: normal;
+    font-weight: normal;
+}
+
+/*Top*/
+
+.page_top {
+    background-color: #ed4c5c;
+    color: #ffffff;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.top_header {
+    width: 445px;
+    height: 107px;
+    left: 165px;
+    top: 122px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    position: absolute;
+}
+.top_paragraph {
+    position: absolute;
+    width: 445px;
+    height: 64px;
+    left: 165px;
+    top: 253px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+}
+.top_slider {
+    width: 533px;
+    height: 311px;
+    left: 691px;
+    right: 216px;
+    top: 94px;
+    position: absolute;
+}
+.top_logos {
+    position: absolute;
+    width: 134px;
+    height: 32px;
+    left: 163px;
+    top: 357px;
+}
+.playstore_logo {
+    width: 31px;
+    height: 31px;
+  
+}
+.appstore_logo {
+    width: 31px;
+    height: 31px;
+    margin-left: 16px;
+    
+}
+.windows_logo {
+    width: 30px;
+    height: 30px;
+    margin-left: 16px;
+}
+
+/* Middle */
+
+.page_middle {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 500px;
+    background-color: #ffffff;
+}
+.middle_header {
+    width: 445px;
+    height: 107px;
+    top: 117px;
+    left: 176px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+    position: absolute;
+}
+.middle_paragraph {
+    position: absolute;
+    width: 434px;
+    height: 64px;
+    left: 176px;
+    top: 213px;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #000000;
+}
+.middle_form {
+    position: absolute;
+    width: 540px;
+    height: 305px;
+    left: 735px;
+    top: 117px;
+}
+.middle_form-input{
+    position: absolute;
+    padding-left: 31px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    border-radius: 6px;
+}
+.first_name {
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.last_name {
+    position: absolute;
+    width: 255px;
+    height: 60px;
+    left: 285px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.phone_number {
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    top: 84px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.service-select {
+    position: absolute;
+    width: 540px;
+    height: 60px;
+    top: 168px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+select {
+    background: url(../img/arrow.svg) no-repeat right #ffffff;
+    -webkit-appearance: none;
+    background-position-x: 95%;
+}
+.submit-buttom {
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    top: 255px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+}
+/* Bottom */
+.page_bottom {
+    position: absolute;
+    margin-top: 45px;
+    width: 100%;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
+    background: #FAFAFA;
+}
+.bottom_address-block {
+    position: absolute;
+    width: 259px;
+    height: 264px;
+    left: 161px;
+    top: 85px; 
+}
+.bottom_address-header {
+    position: absolute;
+    left: 5px;
+    width: 65px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    }
+.bottom_address-text {
+    position: absolute;
+    width: 254px;
+    height: 54px;
+    left: 5px;
+    top: 55px;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+.bottom_address-footer {
+    position: absolute;
+    width: 259px;
+    height: 264px;
+    top: 250px;
+    right: 104;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+
+.bottom_services-block {
+    position: absolute;
+    width: 254px;
+    height: 164px;
+    left: 450px;
+    top: 85px; 
+}
+.bottom_services-header {
+    position: absolute;
+    width: 67px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.bottom_services-text {
+    position: absolute;
+    width: 254px;
+    height: 114px;
+    top: 50px;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.bottom_get-in-touch-block {
+    position: absolute;
+    width: 122px;
+    height: 128px;
+    left: 734px;
+    top: 85px;
+}
+.bottom_get-in-touch-header {
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #101010;
+}
+.bottom_get-in-touch-email {
+    position: absolute;
+    width: 122px;
+    height: 14px;
+    top: 55px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+.bottom_get-in-touch-number {
+    position: absolute;
+    width: 96px;
+    height: 14px;
+    top: 85px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #121212;
+}
+.bottom_get-in-touch-facebook {
+    position: absolute;
+    left: 4px;
+    top: 115px;  
+    width: 14px;
+    height: 14px;
+}
+.bottom_get-in-touch-linkedin {
+    position: absolute;
+    top: 115px;
+    left: 27px;
+    width: 14px;
+    height: 14px;
+}
+.bottom_get-in-touch-twitter {
+    position: absolute;
+    top: 115px;
+    left: 53px;
+    width: 14px;
+    height: 14px;
+}
+
+.bottom_we-support-block {
+    position: absolute;
+    width: 96px;
+    height: 22px;
+    left: 1022px;
+    top: 85px;
+}
+.bottom_we-support-header {
+    position: absolute;
+    width: 96px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+.bottom_we-support-secure-payment {
+    position: absolute;
+    width: 216px;
+    height: 31px;
+    left: 6px;
+    top: 55px;
+}
