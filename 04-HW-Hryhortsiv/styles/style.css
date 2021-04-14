@@ -2,6 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: normal;
     font-weight: normal;
+    height: 100%;
 }
 
 /*Top*/
@@ -210,7 +211,6 @@ select {
 .bottom_address-footer {
     position: absolute;
     width: 259px;
-    height: 264px;
     top: 250px;
     right: 104;
     font-size: 12px;
@@ -221,7 +221,6 @@ select {
 .bottom_services-block {
     position: absolute;
     width: 254px;
-    height: 164px;
     left: 450px;
     top: 85px; 
 }
