@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Styles -->
+    <link rel="stylesheet" href="./styles/css-reset.css">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
 
@@ -18,175 +19,233 @@
 </head>
 <body>
     <header>
-        <div class="header_navig-tools">
-            <img src="./img/svg/Logo.svg" class="header_navig-tools_logo">
-            <nav class="header_navig-tool-bar">
-                <a class="header_navig-tools_item">About</a>
-                <a class="header_navig-tools_item">Help</a>
-                <a class="header_navig-tools_item">Features</a>
-                <a class="header_navig-tools_item">Signup</a>
-            </nav>
-            <a class="header_request-demo">
-                <button class="header_request-demo_btn">
-                    Request Demo
-                    <img src="./img/svg/arrow-to-right.svg" class="header_request-demo_arrow">
-                </button>
-            </a>
+        <div class="wrapper">
+            <div class="header_nav">
+                <div class="header_navig-tools">
+                    <img src="./img/svg/Logo.svg" class="header_navig-tools_logo" alt="#">
+                    <nav class="header_navig-tool-bar">
+                        <a class="header_navig-tools_item">About</a>
+                        <a class="header_navig-tools_item">Help</a>
+                        <a class="header_navig-tools_item">Features</a>
+                        <a class="header_navig-tools_item">Signup</a>
+                    </nav>
+                    <button class="header_request-demo_btn">
+                        Request Demo
+                        <img src="./img/svg/arrow-to-right.svg" class="header_request-demo_arrow" alt="#">
+                    </button>
+                </div>
+            </div>
+            <div class="header_text">
+                <span class="header_uppercase-text">Save your data storage here.</span>
+                <span class="header_regular-text">
+                    Data Warehouse is a data storage area that has been tested for security, so you can
+                    store your data here safely but not be afraid of being stolen by others.
+                </span>
+                <button class="header_learn-more-button">Learn more</button>
+            </div>
+            <img src="./img/image1.png" class="header_header-img" alt="#">
         </div>
-        <span class="header_uppercase-text">Save your data storage here.</span>
-        <span class="header_regular-text">
-            Data Warehouse is a data storage area that has been tested for security, so you can
-            store your data here safely but not be afraid of being stolen by others.
-        </span>
-        <button class="header_learn-more-button">Learn more</button>
-        <img src="./img/image1.png" class="header_header-img">
     </header>
-    <div class="middle_card">
-        <img src="./img/image2.png" class="middle_card_img">
-        <span class="middle_card_uppercase-text">
-            We are a high-level data storage bank
-        </span>
-        <span class="middle_card_regular-text">
-            The place to store various data that you can access at any time through the internet
-            and where you can carry it. This very flexible storage area has a high level of
-            security. To enter into your own data you must enter the password that you created when
-            you registered in this Data Warehouse.
-        </span>
-    </div>
-    <div class="middle_features-block">
-        <span class="middle_features-block_header">
-            Features
-        </span>
-        <span class="middle_features-block_under-header">
-            Some of the features and advantages that we provide 
-            for those of you who store data in this Data Warehouse.
-        </span>
-        <img src="./img/image3-1.png" class="middle_features-block_img-top-left">
-        <span class="middle_features-block_header-top-left">
-            Search Data
-        </span>
-        <span class="middle_features-block_text-top-left">
-            Don’t worry if your data is very large, the Data Warehoue provides a search engine,
-            which is useful for making it easier to find data effectively saving time.
-        </span>
-        <button class="middle_features-block_btn-top-left">
-            Learn more
-            <img src="./img/svg/arrow-to-right.svg" 
-            class="middle_features-block_arrow">
-        </button>
-        <img src="./img/image3-2.png" class="middle_features-block_img-top-right">
-        <span class="middle_features-block_header-top-right">
-            24 Hours Access
-        </span>
-        <span class="middle_features-block_text-top-right">
-            Access is given 24 hours a full morning to night and meet again
-             in the morning, giving you comfort when you need data when urgent.
-        </span>
-        <button class="middle_features-block_btn-top-right">
-            Learn more
-            <img src="./img/svg/arrow-to-right.svg" 
-            class="middle_features-block_arrow">
-        </button>
-        <img src="./img/image3-3.png" class="middle_features-block_img-bottom-left">
-        <span class="middle_features-block_header-bottom-left">
-            Print Out
-        </span>
-        <span class="middle_features-block_text-bottom-left">
-            Print out service gives you convenience 
-            if someday you need print data, just edit it all and just print it.
-        </span>
-        <button class="middle_features-block_btn-bottom-left">
-            Learn more
-            <img src="./img/svg/arrow-to-right.svg" 
-            class="middle_features-block_arrow">
-        </button>
-        <img src="./img/image3-4.png" class="middle_features-block_img-bottom-right">
-        <span class="middle_features-block_header-bottom-right">
-            Security Code
-        </span>
-        <span class="middle_features-block_text-bottom-right">
-            Data Security is one of our best facilities. Allows for your 
-            files to be safer. The file can be secured with 
-            a code or password that you created, so only you can open the file.
-        </span>
-        <button class="middle_features-block_btn-bottom-right">
-            Learn more
-            <img src="./img/svg/arrow-to-right.svg" 
-            class="middle_features-block_arrow">
-        </button>
-    </div>
-    <div class="middle_testimonials-block">
-        <span class="middle_testimonials-block_header">
-            Testimonials
-        </span>
-        <div class="middle_testimonials-block_john-fang">
-            <img src="./img/Ellipse4.png" 
-            class="middle_testimonials-block_john-fang_portret">
-            <span class="middle_testimonials-block_john-fang_header">
-                John Fang
+    <main>
+        <div class="middle_card">
+            <div class="wrapper">
+                <div class="middle_card_main">
+                    <img src="./img/image2.png" class="middle_card_img">
+                    <div class="middle_card_text">
+                        <span class="middle_card_uppercase-text">
+                            We are a high-level data storage bank
+                        </span>
+                        <span class="middle_card_regular-text">
+                            The place to store various data that you can access at any time through the internet
+                            and where you can carry it. This very flexible storage area has a high level of
+                            security. To enter into your own data you must enter the password that you created when
+                            you registered in this Data Warehouse.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle_features-block_title">
+            <span class="middle_features-block_header">
+                Features
             </span>
-            <span class="middle_testimonials-block_john-fang_e-mail">
-                wordfaang.com
-            </span>
-            <span class="middle_testimonials-block_john-fang_text">
-                Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat 
-                tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
+            <span class="middle_features-block_under-header">
+                Some of the features and advantages that we provide 
+                for those of you who store data in this Data Warehouse.
             </span>
         </div>
-        <div class="middle_testimonials-block_dot-1"></div>
-        <div class="middle_testimonials-block_dot-2"></div>
-        <div class="middle_testimonials-block_dot-3"></div>
-        <div class="middle_testimonials-block_dot-4"></div>
-        <img src="./img/svg/big-arrow-to-left.svg" 
-        class="middle_testimonials-block_left-arrow">
-        <img src="./img/svg/white-arrow-to-right.svg" 
-        class="middle_testimonials-block_right-arrow">
-    </div>
-    <div class="bottom">
-        <span class="bottom_header">Try for free!</span>
-        <span class="bottom_under-header">
-            Get limited 1 week free try our features!
-        </span>
-        <button class="bottom_learn-more-btn">Learn more</button>
-        <a class="bottom_rquest-demo">
-            <button class="bottom_request-demo-btn">
-                Request Demo
-                <img src="./img/svg/arrow-to-right.svg" class="bottom_request-demo_arrow">
-            </button>
-        </a>
-        <img src="./img/svg/Logo.svg" class="bottom_logo">
-        <span class="bottom_data-warehouse">DataWarehouse</span>
-        <span class="bottom_adress">
-            Warehouse Society, 234 Bahagia Ave Street PRBW 29281
-        </span>
-        <span class="bottom_email-number">
-            info@warehouse.project <br>
-            1-232-3434 (Main)
-        </span>
-        <span class="bottom_rights-reserved">
-            © Datawarehouse™, 2020. All rights reserved. <br> 
-            Company Registration Number: 21479524.
-        </span>
-        <span class="bottom_about_header">About</span>
-        <span class="bottom_about_text">
-            Profile <br> 
-            Features <br> 
-            Careers <br>
-            DW News
-        </span>
-        <span class="bottom_help_header">Help</span>
-        <span class="bottom_help_text">
-            Support <br> 
-            Sign up <br>
-            Guide <br> 
-            Reports <br> 
-            Q&A
-        </span>
-        <span class="bottom_social-media_header">Social Media</span>
-        <img src="./img/svg/facebook.svg" class="bottom_social-media_facebook">
-        <img src="./img/svg/twitter.svg" class="bottom_social-media_twitter">
-        <img src="./img/svg/instagram.svg" class="bottom_social-media-insagram">
-    </div>
-    
+        <div class="wrapper">
+            <div class="middle_features-block">
+                <div class="middle_features-block_content">
+                    <img src="./img/image3-1.png" class="middle_features-block_img-top-left" alt="#">
+                    <div class="middle_features-block_text">
+                        <span class="middle_features-block_header">
+                            Search Data
+                        </span>
+                        <span class="middle_features-block_paragraph">
+                            Don’t worry if your data is very large, the Data Warehoue provides a search engine,
+                            which is useful for making it easier to find data effectively saving time.
+                        </span>
+                        <button class="middle_features-block_btn">
+                            Learn more
+                            <img src="./img/svg/arrow-to-right.svg" 
+                            class="middle_features-block_arrow">
+                        </button>
+                    </div>
+                </div>
+                <div class="middle_features-block_content">
+                    <img src="./img/image3-2.png" class="middle_features-block_img-top-right" alt="#">
+                    <div class="middle_features-block_text">
+                        <span class="middle_features-block_header">
+                            24 Hours Access
+                        </span>
+                        <span class="middle_features-block_paragraph">
+                            Access is given 24 hours a full morning to night and meet again
+                            in the morning, giving you comfort when you need data when urgent.
+                        </span>
+                        <button class="middle_features-block_btn">
+                            Learn more
+                            <img src="./img/svg/arrow-to-right.svg" 
+                            class="middle_features-block_arrow">
+                        </button>
+                    </div>
+                </div>
+                <div class="middle_features-block_content">
+                    <img src="./img/image3-3.png" class="middle_features-block_img-bottom-left" alt="#">
+                    <div class="middle_features-block_text">
+                        <span class="middle_features-block_header">
+                            Print Out
+                        </span>
+                        <span class="middle_features-block_paragraph">
+                            Print out service gives you convenience 
+                            if someday you need print data, just edit it all and just print it.
+                        </span>
+                        <button class="middle_features-block_btn">
+                            Learn more
+                            <img src="./img/svg/arrow-to-right.svg" 
+                            class="middle_features-block_arrow">
+                        </button>
+                    </div>
+                </div>
+                <div class="middle_features-block_content">
+                    <img src="./img/image3-4.png" class="middle_features-block_img-bottom-right" alt="#">
+                    <div class="middle_features-block_text">
+                        <span class="middle_features-block_header">
+                            Security Code
+                        </span>
+                        <span class="middle_features-block_paragraph">
+                            Data Security is one of our best facilities. Allows for your 
+                            files to be safer. The file can be secured with 
+                            a code or password that you created, so only you can open the file.
+                        </span>
+                        <button class="middle_features-block_btn">
+                            Learn more
+                            <img src="./img/svg/arrow-to-right.svg" 
+                            class="middle_features-block_arrow" alt="#">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="middle_testimonials-block">
+            <div class="wrapper">
+                <div class="middle_testimonials-background">
+                    <div class="middle_testimonials-background_wrapper">
+                        <span class="middle_testimonials-block_header">
+                            Testimonials
+                        </span>
+                        <div class="middle_testimonials-block_content">
+                            <img src="./img/Ellipse4.png" class="middle_testimonials-block_img" alt="#">
+                            <div class="middle_testimonials-block_text">
+                                <span class="middle_testimonials-block_name">John Fang</span>
+                                <span class="middle_testimonials-block_email">wordfaang.com</span>
+                                <span class="middle_testimonials-block_paragraph">
+                                    Suspendisse ultrices at diam lectus nullam. <br>
+                                    Nisl, sagittis viverra enim erat tortor ultricies massa turpis. 
+                                    Arcu pulvinar aenean nam laoreet nulla.
+                                </span>
+                            </div>                           
+                        </div>
+                        <div class="middle_testimonials-block_slider">
+                            <div class="middle_testimonials-block_dots">
+                                <div class="middle_testimonials-block_dot"></div>
+                                <div class="middle_testimonials-block_dot"></div>
+                                <div class="middle_testimonials-block_dot"></div>
+                                <div class="middle_testimonials-block_dot"></div>
+                            </div>
+                            <div class="middle_testimonials-block_arrows">
+                                <img src="./img/svg/big-arrow-to-left.svg" 
+                                class="middle_testimonials-block_left-arrow" alt="#">
+                                <img src="./img/svg/white-arrow-to-right.svg" 
+                                class="middle_testimonials-block_right-arrow" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="purpule-border"></div>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="bottom_try-4-free">
+                <div class="bottom_try-4-free_text">
+                    <h2 class="bottom_try-4-free_header">Try for free!</h2>
+                    <p class="bottom_try-4-free_under-header">Get limited 1 week free try our features!</p>
+                </div>
+                <button class="header_learn-more-button bottom_button-1">Learn more</button>
+                <button class="header_request-demo_btn bottom_button-2">
+                    Request Demo
+                    <img src="./img/svg/arrow-to-right.svg" class="header_request-demo_arrow" alt="#">
+                </button>
+            </div>
+            <div class="bottom_footer">
+                <div class="bottom_footer_main-coloumn">
+                    <div class="bottom_footer_main-coloumn_logo">
+                        <img src="./img/svg/Logo.svg" class="header_navig-tools_logo bottom_logo" alt="#">
+                        <h2 class="bottom_footer_header">DataWarehouse</h2>
+                    </div>
+                    <p class="bottom_footer_main-coloumn_adress">Warehouse Society, 234 <br>
+                        Bahagia Ave Street PRBW 29281
+                    </p>
+                    <div class="bottom_footer_main-coloumn_contacts">
+                        <p>info@warehouse.project</p>
+                        <p>1-232-3434 (Main)</p>
+                    </div>
+                    <p class="bottom_footer_main-coloumn_copyright">
+                        © Datawarehouse™, 2020. All rights reserved. <br>
+                        Company Registration Number: 21479524.</p>
+                </div>
+                <div class="bottom_footer_second-coloumn">
+                    <h2 class="bottom_footer_second-coloumn_header">About</h2>
+                    <ul class="bottom_footer_second-coloumn_list">
+                        <li>Profile</li>
+                        <li>Features</li>
+                        <li>Careers</li>
+                        <li>DW News</li>
+                    </ul>
+                </div>
+                <div class="bottom_footer_third-coloumn">
+                    <h6 class="bottom_footer_third-coloumn_header">Help</h6>
+                    <ul class="bottom_footer_third-coloumn_list">
+                        <li>Support </li>
+                        <li>Sign up </li>
+                        <li>Guide </li>
+                        <li> Reports</li> 
+                        <li> Q&A</li>
+                    </ul>
+                </div>
+                <div class="bottom_footer_fourth-coloumn">
+                    <h6 class="bottom_footer_fourth-coloumn_header">Social Media</h6>
+                    <div class="bottom_footer_fourth-coloumn_icons">
+                            <img src="./img/svg/facebook.svg" alt="#">
+                            <img src="./img/svg/twitter.svg" alt="#">
+                            <img src="./img/svg/instagram.svg" alt="#">
+                    </div>
+                    <img src="./img/svg/chat-icon.svg" class="bottom_footer_fourth-coloumn_messager" alt="#">
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-</html>
+        
