@@ -1,0 +1,58 @@
+.boxes {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 24px 24px;
+    margin: 0 auto;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    border: solid black;
+    background-color: gray;
+}
+.box:nth-child(n+21) {
+    background-color: blue;
+}
+.box:nth-child(4n-1) {
+    background-color: red;
+}
+.create {
+    margin-top: 100px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+button {
+    width: 494px;
+    height: 92px;
+    margin: 46px;
+    border: none;
+    background-color: #44D3A8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.create::before, 
+.create::after {
+    content: "";
+    width: 200px;
+    height: 8px;
+    border-top: 2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+}
+button:hover {
+    background-color: rgba(149, 185, 15, 0.705);
+    font-size: 26px;
+    margin: 100px;
+
+}
